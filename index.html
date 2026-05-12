@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Nhà Sakura Menu</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+      <h1>Nhà Sakura</h1>
+
+      <p class="hero-jp">
+        ベトナム料理専門店
+      </p>
+
+      <p class="hero-sub">
+        Vietnamese Restaurant Menu
+      </p>
+
+    </div>
+
+  </header>
+
+
+
+  <!-- MENU -->
+  <section class="menu-grid">
+
+
+
+    <!-- ITEM 1 -->
+    <div class="menu-card">
+
+      <img src="images/Menu01.jpg"
+           alt="food"
+           onclick="openModal(this.src)">
+
+      <div class="card-content">
+
+        <div class="food-title">
+
+          <h2 class="jp-name">
+            🍜 ①フォーボー
+            <span>(牛肉のフォー)</span>
+          </h2>
+
+          <div class="vn-name">
+            Phở Bò
+          </div>
+
+        </div>
+
+        <span class="price">¥950</span>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- ITEM 2 -->
+    <div class="menu-card">
+
+      <img src="images/Menu02.jpg"
+           alt="food"
+           onclick="openModal(this.src)">
+
+      <div class="card-content">
+
+        <div class="food-title">
+
+          <h2 class="jp-name">
+            🍜 ②フォーガー
+            <span>(鶏肉のフォー)</span>
+          </h2>
+
+          <div class="vn-name">
+            Phở Gà
+          </div>
+
+        </div>
+
+        <span class="price">¥850</span>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- ITEM 3 -->
+    <div class="menu-card">
+
+      <img src="images/Menu03.jpg"
+           alt="food"
+           onclick="openModal(this.src)">
+
+      <div class="card-content">
+
+        <div class="food-title">
+
+          <h2 class="jp-name">
+            🥢 ③ブンチャー
+            <span>(つくねと焼肉のつけ麺)</span>
+          </h2>
+
+          <div class="vn-name">
+            Bún Chả
+          </div>
+
+        </div>
+
+        <span class="price">¥950</span>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- ITEM 4 -->
+    <div class="menu-card">
+
+      <img src="images/Menu04.jpg"
+           alt="food"
+           onclick="openModal(this.src)">
+
+      <div class="card-content">
+
+        <div class="food-title">
+
+          <h2 class="jp-name">
+            🥖 ④バインミー
+            <span>(ベトナムサンドイッチ)</span>
+          </h2>
+
+          <div class="vn-name">
+            Bánh Mỳ
+          </div>
+
+        </div>
+
+        <span class="price">¥750</span>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- ITEM 5 -->
+    <div class="menu-card">
+
+      <img src="images/Menu05.jpg"
+           alt="food"
+           onclick="openModal(this.src)">
+
+      <div class="card-content">
+
+        <div class="food-title">
+
+          <h2 class="jp-name">
+            🥗 ⑤ゴイ・クオン
+            <span>(ベトナム生春巻き)</span>
+          </h2>
+
+          <div class="vn-name">
+            Gỏi Cuốn
+          </div>
+
+        </div>
+
+        <span class="price">¥850</span>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- ITEM 6 -->
+    <div class="menu-card">
+
+      <img src="images/Menu06.jpg"
+           alt="food"
+           onclick="openModal(this.src)">
+
+      <div class="card-content">
+
+        <div class="food-title">
+
+          <h2 class="jp-name">
+            🌟 ⑥ネムラン
+            <span>(ベトナム揚げ春巻き)</span>
+          </h2>
+
+          <div class="vn-name">
+            Nem Rán
+          </div>
+
+        </div>
+
+        <span class="price">¥750</span>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- ITEM 7 -->
+    <div class="menu-card">
+
+      <img src="images/Menu07.jpg"
+           alt="food"
+           onclick="openModal(this.src)">
+
+      <div class="card-content">
+
+        <div class="food-title">
+
+          <h2 class="jp-name">
+            🥞 ⑦バインセオ
+            <span>(ベトナム風お好み焼き)</span>
+          </h2>
+
+          <div class="vn-name">
+            Bánh Xèo
+          </div>
+
+        </div>
+
+        <span class="price">¥750</span>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- ITEM 8 -->
+    <div class="menu-card">
+
+      <img src="images/Menu08.jpg"
+           alt="food"
+           onclick="openModal(this.src)">
+
+      <div class="card-content">
+
+        <div class="food-title">
+
+          <h2 class="jp-name">
+            🥬 ⑧カイ・ゴット・サオ・トイ
+            <span>(青菜のガリック炒め)</span>
+          </h2>
+
+          <div class="vn-name">
+            Cải Ngọt Xào Tỏi
+          </div>
+
+        </div>
+
+        <span class="price">¥600</span>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- ITEM 9 -->
+    <div class="menu-card">
+
+      <img src="images/Menu09.jpg"
+           alt="food"
+           onclick="openModal(this.src)">
+
+      <div class="card-content">
+
+        <div class="food-title">
+
+          <h2 class="jp-name">
+            🍗 ⑨カインガー・チエンマムトイ
+            <span>(手羽先のヌクマムニンニク揚げ)</span>
+          </h2>
+
+          <div class="vn-name">
+            Cánh Gà Chiên Mắm Tỏi
+          </div>
+
+        </div>
+
+        <span class="price">¥650</span>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- ITEM 10 -->
+    <div class="menu-card">
+
+      <img src="images/Menu10.jpg"
+           alt="food"
+           onclick="openModal(this.src)">
+
+      <div class="card-content">
+
+        <div class="food-title">
+
+          <h2 class="jp-name">
+            🥜 ⑩ダウフォン・ラン・ムオイ
+            <span>(塩味ピーナッツ)</span>
+          </h2>
+
+          <div class="vn-name">
+            Đậu Phộng Rang Muối
+          </div>
+
+        </div>
+
+        <span class="price">¥350</span>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- ITEM 11 -->
+    <div class="menu-card">
+
+      <img src="images/Menu11.jpg"
+           alt="food"
+           onclick="openModal(this.src)">
+
+      <div class="card-content">
+
+        <div class="food-title">
+
+          <h2 class="jp-name">
+            ⭐ ⑪ネムラン
+            <span>(ベトナム揚げ春巻き)</span>
+          </h2>
+
+          <div class="vn-name">
+            Nem Rán
+          </div>
+
+        </div>
+
+        <span class="price">¥750</span>
+
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+
+
+  <!-- MODAL -->
+  <div id="imageModal"
+       class="modal"
+       onclick="closeModal()">
+
+    <img id="modalImg">
+
+  </div>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
